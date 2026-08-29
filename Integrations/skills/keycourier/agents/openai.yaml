@@ -1,0 +1,4 @@
+interface:
+  display_name: "KeyCourier"
+  short_description: "Request owner-approved credential delivery"
+  default_prompt: "Use KeyCourier to request credential installation without handling plaintext."

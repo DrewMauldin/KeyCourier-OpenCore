@@ -1,0 +1,1376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF3F49F156B638989B3F7C1 /* libKeyCourierCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1689552CCDB985FD3594A29B /* libKeyCourierCore.a */; };
+		11CF5B0AA3B5C11D79B2EFF1 /* RemoteAgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F53F8619C94DDDEEB38E92 /* RemoteAgeTests.swift */; };
+		11E7E6F89205DC4AA9297EC9 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8791D362A7714FCC59B23F /* HistoryView.swift */; };
+		13E05C2CDE78C31B888C2013 /* CompanionCloudStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EAD7BE74CD5EECF4285AB /* CompanionCloudStore.swift */; };
+		151DF09A8CDC96C199097B70 /* CompanionAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1B7F1044FF15F0A3324F8 /* CompanionAppModel.swift */; };
+		1562810F084D76F281590F72 /* TelegramApprovals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86646E1727038E9F2909D47B /* TelegramApprovals.swift */; };
+		1669194A4C8BA0020A86B8CD /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 03E428D3B63F9193FF543795 /* PrivacyInfo.xcprivacy */; };
+		173BA89F12D2D882EBF5DFFD /* BridgeQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AA5D7C7A1574811E35DF74 /* BridgeQueue.swift */; };
+		1FBD0DC705450048131DD0B3 /* CompanionConfigurationStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7930B1F0CC69CE5543180B /* CompanionConfigurationStoreTests.swift */; };
+		2243F3BC5B5B98FA3CBDDAC6 /* CompanionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B44836DD0C5C5A08523A5B1 /* CompanionProtocol.swift */; };
+		26AA52A997AB18A2B1D4942B /* CompanionProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA570CB138A48E66472A6B /* CompanionProtocolTests.swift */; };
+		2F6C9F29F61605D261840322 /* MobileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B55AF1053142A791562E128 /* MobileSettingsView.swift */; };
+		32ADAF2FE6745D3C79545A94 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF52B4274A183C14DFB6B76 /* HomeView.swift */; };
+		34C3E7DB098B9098CBF64260 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A771739D6E417CED7CD0CEE /* main.swift */; };
+		36F60FFC1CB9A8B372581224 /* DomainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ABCB9D85B02944990133D2 /* DomainModels.swift */; };
+		372C38D2C15BA4E1AC31CDDE /* KeyCourierMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42EF164DC9F8F4DB66D02B /* KeyCourierMobileApp.swift */; };
+		38B56F34E42A54724D370A59 /* RoutingSecretInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE51E77A058B3406F015BF /* RoutingSecretInstaller.swift */; };
+		399170B16C3BDB04E9F3A45F /* CredentialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC7C522B4431E995BB430D6 /* CredentialsView.swift */; };
+		3CA28559DBB870B350BD8ED9 /* RequestedSecretEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAA14714597C190CA597A5 /* RequestedSecretEntryView.swift */; };
+		3D085A9D7805B4DBA0451818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E575B953EF36ED713CD6A0C6 /* Assets.xcassets */; };
+		3E7F1ED22B60A10A34326D01 /* MobileRequestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179AB384BD0B6A8054A802F /* MobileRequestsView.swift */; };
+		3FD8D9EC2C5F90A46161867F /* BridgeQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03C07D590A24E84EC36120 /* BridgeQueueTests.swift */; };
+		48C1713F4A7EC46CE2982B2F /* KeychainSecretStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E28104A2B24D1837CB75F60 /* KeychainSecretStore.swift */; };
+		4B058BF8576D2C13375833ED /* FileInboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A4733493BA6563387A130 /* FileInboxTests.swift */; };
+		4BE9F7364774EAAF10473BF0 /* BridgeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD801EDB35A4CE44E2C8DC7 /* BridgeProtocol.swift */; };
+		4D4FFD781D307CC22DEFC4F8 /* libKeyCourierCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1689552CCDB985FD3594A29B /* libKeyCourierCore.a */; };
+		4FE5C09FDDC4C32A716057FA /* keycourier in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B10FF22404023A9787ED29F /* keycourier */; };
+		505C78699C7A1617E9EAD6BD /* RemoteAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4536A7463B92413E25ED0075 /* RemoteAge.swift */; };
+		5E279B4DF3894531C3C506DC /* libKeyCourierCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1689552CCDB985FD3594A29B /* libKeyCourierCore.a */; };
+		5E3A9D1943AA6C80CE9949BB /* RemoteProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8039F275A0CEFC7BEF4DC50 /* RemoteProfileStore.swift */; };
+		5EB5F1E29369813FA279DE8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E575B953EF36ED713CD6A0C6 /* Assets.xcassets */; };
+		5F8CCD3DE603DFC454359FCA /* MetadataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9853061E9258515B804CAE /* MetadataStore.swift */; };
+		6573B91C1CFB0235BF0504A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C447799D6FFFE182FF47436E /* main.swift */; };
+		67946837529D5CDC01C4D308 /* RequestContractTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2FC627D1D17485DBFE0DA /* RequestContractTests.swift */; };
+		6C7B96FE4983412556824B29 /* MetadataStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC367AB045D0A2C307F52D /* MetadataStoreTests.swift */; };
+		6CACF8919A2245AFF4EB26BC /* KeyCourierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65DDA699DB2E9BEB3E718F9 /* KeyCourierApp.swift */; };
+		6FA9581E0ADADC8AA588BAC2 /* TelegramApprovalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD805DC0F9E18293B79589 /* TelegramApprovalTests.swift */; };
+		7206FE079EB48FA1FF57754E /* AgentCommandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E137C78AB47FB8C7CC7491CF /* AgentCommandTests.swift */; };
+		724250F0774FE7C2B71E4FCF /* AgentCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F405981CEA4E3D9700C9D535 /* AgentCommand.swift */; };
+		72F36829180A7211E4160BE9 /* ConsumerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD866329465B67F6558BD607 /* ConsumerProfile.swift */; };
+		73D2F03EDA014AF3B6DAAE47 /* QuickCredentialEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CFC5EDCCCB1496F637022C /* QuickCredentialEntryView.swift */; };
+		75FE977FDA227A040B91C69D /* CustomConfigurationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552A161BFDC234AADE59BF7C /* CustomConfigurationViews.swift */; };
+		77A9EF30515EF0F158D2ED16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E575B953EF36ED713CD6A0C6 /* Assets.xcassets */; };
+		77E3B7D552D965636B98B6AD /* ApprovalCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2177363CA9B2F014B627ECE /* ApprovalCoordinatorTests.swift */; };
+		79E019673654DE3A334C6FD8 /* AdvancedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B543B24D8960A928EA6F4F /* AdvancedView.swift */; };
+		80F96771F81CE4236C72F187 /* RequestNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8533540A6C9AA498CAFF6066 /* RequestNotificationService.swift */; };
+		8355BFB2F84CE31FA2A6E925 /* LifecycleRecovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277AD3FF6CD1FAC38CB6F8C8 /* LifecycleRecovery.swift */; };
+		841B67CA11049CAF13A77D4E /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4281F0634FF78B37813D2965 /* AppNavigation.swift */; };
+		84A7AF4E7256A3E8F01199D7 /* CompanionDeviceKeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82465A5BD833A58EC3E1031B /* CompanionDeviceKeyStore.swift */; };
+		867A347FD2FB81CCF070F283 /* CompanionRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155FF31F4074EEFAEB8CA4D5 /* CompanionRootView.swift */; };
+		8FEC076D40AE7891F7092702 /* LifecycleRecoveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052860847A254D865B46CCC5 /* LifecycleRecoveryTests.swift */; };
+		90C8CCE3A4FF5FF4969F1B88 /* DotenvInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A426A7950EB2275BC4587 /* DotenvInstaller.swift */; };
+		9180280A3FDBD21F0FF3FA50 /* libKeyCourierCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1689552CCDB985FD3594A29B /* libKeyCourierCore.a */; };
+		9334C063D797F45F03D069C5 /* RequestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C77E4A4BE1826676B5769A /* RequestsView.swift */; };
+		9489065963CC789A5A882012 /* DotenvInstallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929ADCC424C66C9C9B73450 /* DotenvInstallerTests.swift */; };
+		9B850C9FE4ED3CA6AC3BA963 /* AppModel+FriendlyNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F2CAE5E84A728F09857EF /* AppModel+FriendlyNames.swift */; };
+		9F1972545F5038B281D033C3 /* CompanionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B44836DD0C5C5A08523A5B1 /* CompanionProtocol.swift */; };
+		A2FE1365FA12D67B8BDC3E21 /* FileRequestInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3755299BC8F108E683C63C62 /* FileRequestInbox.swift */; };
+		A36B06B1292E1B99CB8473D1 /* BridgeApproval.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52763B895F16D62CA5F0FC5 /* BridgeApproval.swift */; };
+		A37FEF83371F1547300BA556 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2DF26C75CEDC54C8CF6A91 /* ContentView.swift */; };
+		A88B427C53E0AF5BD31FCE77 /* MobileCredentialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BE201A9580B98BCE0D62DF /* MobileCredentialsView.swift */; };
+		B180C086651EE603192FA2B0 /* GuidedDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DA79513D8E39A60048D6D2 /* GuidedDestination.swift */; };
+		B3E0A1813D636FD766F65D82 /* BridgeApprovalDispatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833CF7E0DE34195FAAFE98DF /* BridgeApprovalDispatcherTests.swift */; };
+		B3FD7D8CD6E1AD0E83588AC8 /* BridgeDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC23AC7FD07810B50EFE47A /* BridgeDeliveryTests.swift */; };
+		B4D0C63A8875DE2FD1AF1132 /* libKeyCourierCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1689552CCDB985FD3594A29B /* libKeyCourierCore.a */; };
+		BD65B259A7C52999E6206CCA /* KeyCourierCLI in Embed Dependencies */ = {isa = PBXBuildFile; fileRef = C328C604F450F4E85C83A7CF /* KeyCourierCLI */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEAACBB9993CB43AAB538A1C /* CompanionDeviceKeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82465A5BD833A58EC3E1031B /* CompanionDeviceKeyStore.swift */; };
+		C728E6F17FF1AEAA525552AB /* SecureFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B04CA90E7A7D4B0F96213 /* SecureFileSystem.swift */; };
+		C8C499B8C5521D2EBC6760A8 /* CompanionConfigurationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF01BBB95D31BBBDCD3A0F9 /* CompanionConfigurationStore.swift */; };
+		C9D4F1911EF8BD8297BCA3F8 /* BridgeStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37C4888830557AEDA3FBC6 /* BridgeStorage.swift */; };
+		D6E7F64D09A27A2CA0306AE0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F06880F408914FEBF17D6 /* SettingsView.swift */; };
+		D85D29DA1D01CD2CC5DF824B /* GuidedDestinationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B5C3425FC06BBBD519752 /* GuidedDestinationTests.swift */; };
+		DE4FBFA0B3E70DDC6388A3B9 /* CompanionCloudStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EAD7BE74CD5EECF4285AB /* CompanionCloudStore.swift */; };
+		E0D54730745285B061FE5014 /* SecureFileSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE01E1B4054C0AE6AB1CAE /* SecureFileSystemTests.swift */; };
+		E638001EB607A071358975DD /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23674A7EE2F779C15B5C0442 /* AppModel.swift */; };
+		EB145DC8339253D4D1828919 /* GuidedSecretEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F96E8407DC03B94DC89AF6 /* GuidedSecretEntryView.swift */; };
+		EE004E9B879CE9CB2B6522ED /* BridgeProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BE6ADE27D5DD4AA4D6AFF1 /* BridgeProtocolTests.swift */; };
+		F325AAAAA0C5C10DDC1B954A /* BridgeDelivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16BB0AC14DD79B04901F221 /* BridgeDelivery.swift */; };
+		F5F05C251FB708674FDC29C0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1D7E21ADE79DEEE9BF7D0213 /* PrivacyInfo.xcprivacy */; };
+		F7C445FFC2387D9139339F96 /* SecretCustody.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4727CCDD2697274CB422DDB /* SecretCustody.swift */; };
+		FC1A00648682040EB021E6DE /* KeyCourierStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011B86A4986B7F294FD0776 /* KeyCourierStoreApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4657B3B32B5595B486B41440 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADAE85B861EE29EFD207D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D7E2114EEE3B51A7777BDA4;
+			remoteInfo = KeyCourierCore;
+		};
+		519D103E95A4EBDE50F89B5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADAE85B861EE29EFD207D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C3AA434B7A8077F9C33529F;
+			remoteInfo = KeyCourierCLI;
+		};
+		6C9A8ECB39CC576309678E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADAE85B861EE29EFD207D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D7E2114EEE3B51A7777BDA4;
+			remoteInfo = KeyCourierCore;
+		};
+		8E66A5EA5603060A08C682AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADAE85B861EE29EFD207D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D7E2114EEE3B51A7777BDA4;
+			remoteInfo = KeyCourierCore;
+		};
+		D4DA083D457F81F6765F3169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADAE85B861EE29EFD207D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D7E2114EEE3B51A7777BDA4;
+			remoteInfo = KeyCourierCore;
+		};
+		D574151B6EFA724EEF30D085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADAE85B861EE29EFD207D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D7E2114EEE3B51A7777BDA4;
+			remoteInfo = KeyCourierCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C75DD2F6C4C41D21AD2A233B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Automation/skill;
+			dstSubfolderSpec = 7;
+			files = (
+				4FE5C09FDDC4C32A716057FA /* keycourier in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53EB1AD81D04A5A9FEB6F2D /* Embed Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Automation;
+			dstSubfolderSpec = 7;
+			files = (
+				BD65B259A7C52999E6206CCA /* KeyCourierCLI in Embed Dependencies */,
+			);
+			name = "Embed Dependencies";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03ABCB9D85B02944990133D2 /* DomainModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainModels.swift; sourceTree = "<group>"; };
+		03E428D3B63F9193FF543795 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		052860847A254D865B46CCC5 /* LifecycleRecoveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleRecoveryTests.swift; sourceTree = "<group>"; };
+		09BE201A9580B98BCE0D62DF /* MobileCredentialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileCredentialsView.swift; sourceTree = "<group>"; };
+		13BE51E77A058B3406F015BF /* RoutingSecretInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingSecretInstaller.swift; sourceTree = "<group>"; };
+		155FF31F4074EEFAEB8CA4D5 /* CompanionRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionRootView.swift; sourceTree = "<group>"; };
+		15C1B7F1044FF15F0A3324F8 /* CompanionAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionAppModel.swift; sourceTree = "<group>"; };
+		1689552CCDB985FD3594A29B /* libKeyCourierCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKeyCourierCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7930B1F0CC69CE5543180B /* CompanionConfigurationStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionConfigurationStoreTests.swift; sourceTree = "<group>"; };
+		1D7E21ADE79DEEE9BF7D0213 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1F2DF26C75CEDC54C8CF6A91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23674A7EE2F779C15B5C0442 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		277AD3FF6CD1FAC38CB6F8C8 /* LifecycleRecovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleRecovery.swift; sourceTree = "<group>"; };
+		28C77E4A4BE1826676B5769A /* RequestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsView.swift; sourceTree = "<group>"; };
+		2A5F2CAE5E84A728F09857EF /* AppModel+FriendlyNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppModel+FriendlyNames.swift"; sourceTree = "<group>"; };
+		2E28104A2B24D1837CB75F60 /* KeychainSecretStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSecretStore.swift; sourceTree = "<group>"; };
+		34BE6ADE27D5DD4AA4D6AFF1 /* BridgeProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeProtocolTests.swift; sourceTree = "<group>"; };
+		35F96E8407DC03B94DC89AF6 /* GuidedSecretEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedSecretEntryView.swift; sourceTree = "<group>"; };
+		3755299BC8F108E683C63C62 /* FileRequestInbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRequestInbox.swift; sourceTree = "<group>"; };
+		3A771739D6E417CED7CD0CEE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3F37C4888830557AEDA3FBC6 /* BridgeStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeStorage.swift; sourceTree = "<group>"; };
+		4281F0634FF78B37813D2965 /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		4536A7463B92413E25ED0075 /* RemoteAge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAge.swift; sourceTree = "<group>"; };
+		454A4733493BA6563387A130 /* FileInboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInboxTests.swift; sourceTree = "<group>"; };
+		4BEC367AB045D0A2C307F52D /* MetadataStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataStoreTests.swift; sourceTree = "<group>"; };
+		4CF52B4274A183C14DFB6B76 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4FF01BBB95D31BBBDCD3A0F9 /* CompanionConfigurationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionConfigurationStore.swift; sourceTree = "<group>"; };
+		552A161BFDC234AADE59BF7C /* CustomConfigurationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomConfigurationViews.swift; sourceTree = "<group>"; };
+		57CA041661B95FE9669C0042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		59B1521004932856DAE056D8 /* KeyCourierBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyCourierBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B55AF1053142A791562E128 /* MobileSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileSettingsView.swift; sourceTree = "<group>"; };
+		5D23479F244868E2FA7E13DD /* KeyCourierCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyCourierCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		610EAD7BE74CD5EECF4285AB /* CompanionCloudStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionCloudStore.swift; sourceTree = "<group>"; };
+		61DA79513D8E39A60048D6D2 /* GuidedDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedDestination.swift; sourceTree = "<group>"; };
+		7B10FF22404023A9787ED29F /* keycourier */ = {isa = PBXFileReference; lastKnownFileType = folder; name = keycourier; path = Integrations/skills/keycourier; sourceTree = SOURCE_ROOT; };
+		7B44836DD0C5C5A08523A5B1 /* CompanionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionProtocol.swift; sourceTree = "<group>"; };
+		7F1B5C3425FC06BBBD519752 /* GuidedDestinationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedDestinationTests.swift; sourceTree = "<group>"; };
+		7FD2FC627D1D17485DBFE0DA /* RequestContractTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestContractTests.swift; sourceTree = "<group>"; };
+		82465A5BD833A58EC3E1031B /* CompanionDeviceKeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionDeviceKeyStore.swift; sourceTree = "<group>"; };
+		833CF7E0DE34195FAAFE98DF /* BridgeApprovalDispatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeApprovalDispatcherTests.swift; sourceTree = "<group>"; };
+		8533540A6C9AA498CAFF6066 /* RequestNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestNotificationService.swift; sourceTree = "<group>"; };
+		86646E1727038E9F2909D47B /* TelegramApprovals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramApprovals.swift; sourceTree = "<group>"; };
+		86CA570CB138A48E66472A6B /* CompanionProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionProtocolTests.swift; sourceTree = "<group>"; };
+		88F53F8619C94DDDEEB38E92 /* RemoteAgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAgeTests.swift; sourceTree = "<group>"; };
+		8CEAA14714597C190CA597A5 /* RequestedSecretEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestedSecretEntryView.swift; sourceTree = "<group>"; };
+		9011B86A4986B7F294FD0776 /* KeyCourierStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCourierStoreApp.swift; sourceTree = "<group>"; };
+		9179AB384BD0B6A8054A802F /* MobileRequestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileRequestsView.swift; sourceTree = "<group>"; };
+		9F42EF164DC9F8F4DB66D02B /* KeyCourierMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCourierMobileApp.swift; sourceTree = "<group>"; };
+		A8AE01E1B4054C0AE6AB1CAE /* SecureFileSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFileSystemTests.swift; sourceTree = "<group>"; };
+		B0AA5D7C7A1574811E35DF74 /* BridgeQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeQueue.swift; sourceTree = "<group>"; };
+		B52763B895F16D62CA5F0FC5 /* BridgeApproval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeApproval.swift; sourceTree = "<group>"; };
+		B56D97EC8E8326CC7CAB03E7 /* KeyCourier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyCourier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8039F275A0CEFC7BEF4DC50 /* RemoteProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteProfileStore.swift; sourceTree = "<group>"; };
+		B8C56B2D56EC36D0476C1D3D /* KeyCourierMobile.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = KeyCourierMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC23AC7FD07810B50EFE47A /* BridgeDeliveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeDeliveryTests.swift; sourceTree = "<group>"; };
+		BE03C07D590A24E84EC36120 /* BridgeQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeQueueTests.swift; sourceTree = "<group>"; };
+		BFD801EDB35A4CE44E2C8DC7 /* BridgeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeProtocol.swift; sourceTree = "<group>"; };
+		C01B04CA90E7A7D4B0F96213 /* SecureFileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFileSystem.swift; sourceTree = "<group>"; };
+		C328C604F450F4E85C83A7CF /* KeyCourierCLI */ = {isa = PBXFileReference; includeInIndex = 0; path = KeyCourierCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		C447799D6FFFE182FF47436E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C929ADCC424C66C9C9B73450 /* DotenvInstallerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotenvInstallerTests.swift; sourceTree = "<group>"; };
+		CC9853061E9258515B804CAE /* MetadataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataStore.swift; sourceTree = "<group>"; };
+		CCD9294CF693BAEF11EF10FB /* KeyCourierStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyCourierStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDD805DC0F9E18293B79589 /* TelegramApprovalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramApprovalTests.swift; sourceTree = "<group>"; };
+		CD866329465B67F6558BD607 /* ConsumerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumerProfile.swift; sourceTree = "<group>"; };
+		D65DDA699DB2E9BEB3E718F9 /* KeyCourierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCourierApp.swift; sourceTree = "<group>"; };
+		DE1F06880F408914FEBF17D6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E137C78AB47FB8C7CC7491CF /* AgentCommandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentCommandTests.swift; sourceTree = "<group>"; };
+		E16BB0AC14DD79B04901F221 /* BridgeDelivery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeDelivery.swift; sourceTree = "<group>"; };
+		E1CFC5EDCCCB1496F637022C /* QuickCredentialEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCredentialEntryView.swift; sourceTree = "<group>"; };
+		E4727CCDD2697274CB422DDB /* SecretCustody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretCustody.swift; sourceTree = "<group>"; };
+		E575B953EF36ED713CD6A0C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2177363CA9B2F014B627ECE /* ApprovalCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalCoordinatorTests.swift; sourceTree = "<group>"; };
+		F405981CEA4E3D9700C9D535 /* AgentCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentCommand.swift; sourceTree = "<group>"; };
+		F61A426A7950EB2275BC4587 /* DotenvInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotenvInstaller.swift; sourceTree = "<group>"; };
+		F7B543B24D8960A928EA6F4F /* AdvancedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedView.swift; sourceTree = "<group>"; };
+		FB8791D362A7714FCC59B23F /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		FDC7C522B4431E995BB430D6 /* CredentialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A0FF46245586F72FA3022F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D0C63A8875DE2FD1AF1132 /* libKeyCourierCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F69BD41D652CD042E13697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9180280A3FDBD21F0FF3FA50 /* libKeyCourierCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BFB664F6A14796BC2BF3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E279B4DF3894531C3C506DC /* libKeyCourierCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB735F3203BA6F4A3F51DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4FFD781D307CC22DEFC4F8 /* libKeyCourierCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E34D84C41C82B35FB36F6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF3F49F156B638989B3F7C1 /* libKeyCourierCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D890E36DFDA6FBEE022AB3 /* KeyCourierMobile */ = {
+			isa = PBXGroup;
+			children = (
+				15C1B7F1044FF15F0A3324F8 /* CompanionAppModel.swift */,
+				155FF31F4074EEFAEB8CA4D5 /* CompanionRootView.swift */,
+				57CA041661B95FE9669C0042 /* Info.plist */,
+				9F42EF164DC9F8F4DB66D02B /* KeyCourierMobileApp.swift */,
+				09BE201A9580B98BCE0D62DF /* MobileCredentialsView.swift */,
+				9179AB384BD0B6A8054A802F /* MobileRequestsView.swift */,
+				5B55AF1053142A791562E128 /* MobileSettingsView.swift */,
+				1D7E21ADE79DEEE9BF7D0213 /* PrivacyInfo.xcprivacy */,
+			);
+			name = KeyCourierMobile;
+			path = Sources/KeyCourierMobile;
+			sourceTree = "<group>";
+		};
+		0E53A2E47EB18F6B64C2411A /* KeyCourierCore */ = {
+			isa = PBXGroup;
+			children = (
+				F405981CEA4E3D9700C9D535 /* AgentCommand.swift */,
+				B52763B895F16D62CA5F0FC5 /* BridgeApproval.swift */,
+				E16BB0AC14DD79B04901F221 /* BridgeDelivery.swift */,
+				BFD801EDB35A4CE44E2C8DC7 /* BridgeProtocol.swift */,
+				B0AA5D7C7A1574811E35DF74 /* BridgeQueue.swift */,
+				3F37C4888830557AEDA3FBC6 /* BridgeStorage.swift */,
+				4FF01BBB95D31BBBDCD3A0F9 /* CompanionConfigurationStore.swift */,
+				CD866329465B67F6558BD607 /* ConsumerProfile.swift */,
+				03ABCB9D85B02944990133D2 /* DomainModels.swift */,
+				F61A426A7950EB2275BC4587 /* DotenvInstaller.swift */,
+				3755299BC8F108E683C63C62 /* FileRequestInbox.swift */,
+				61DA79513D8E39A60048D6D2 /* GuidedDestination.swift */,
+				2E28104A2B24D1837CB75F60 /* KeychainSecretStore.swift */,
+				277AD3FF6CD1FAC38CB6F8C8 /* LifecycleRecovery.swift */,
+				CC9853061E9258515B804CAE /* MetadataStore.swift */,
+				4536A7463B92413E25ED0075 /* RemoteAge.swift */,
+				B8039F275A0CEFC7BEF4DC50 /* RemoteProfileStore.swift */,
+				13BE51E77A058B3406F015BF /* RoutingSecretInstaller.swift */,
+				E4727CCDD2697274CB422DDB /* SecretCustody.swift */,
+				C01B04CA90E7A7D4B0F96213 /* SecureFileSystem.swift */,
+				86646E1727038E9F2909D47B /* TelegramApprovals.swift */,
+			);
+			name = KeyCourierCore;
+			path = Sources/KeyCourierCore;
+			sourceTree = "<group>";
+		};
+		1C7E112D1CD7EF35E3DBE90A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56D97EC8E8326CC7CAB03E7 /* KeyCourier.app */,
+				59B1521004932856DAE056D8 /* KeyCourierBridge.app */,
+				C328C604F450F4E85C83A7CF /* KeyCourierCLI */,
+				5D23479F244868E2FA7E13DD /* KeyCourierCoreTests.xctest */,
+				B8C56B2D56EC36D0476C1D3D /* KeyCourierMobile.app */,
+				CCD9294CF693BAEF11EF10FB /* KeyCourierStore.app */,
+				1689552CCDB985FD3594A29B /* libKeyCourierCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2501AC1CA580FFE5603E55EF /* KeyCourierApp */ = {
+			isa = PBXGroup;
+			children = (
+				F7B543B24D8960A928EA6F4F /* AdvancedView.swift */,
+				23674A7EE2F779C15B5C0442 /* AppModel.swift */,
+				2A5F2CAE5E84A728F09857EF /* AppModel+FriendlyNames.swift */,
+				4281F0634FF78B37813D2965 /* AppNavigation.swift */,
+				E575B953EF36ED713CD6A0C6 /* Assets.xcassets */,
+				1F2DF26C75CEDC54C8CF6A91 /* ContentView.swift */,
+				FDC7C522B4431E995BB430D6 /* CredentialsView.swift */,
+				552A161BFDC234AADE59BF7C /* CustomConfigurationViews.swift */,
+				35F96E8407DC03B94DC89AF6 /* GuidedSecretEntryView.swift */,
+				FB8791D362A7714FCC59B23F /* HistoryView.swift */,
+				4CF52B4274A183C14DFB6B76 /* HomeView.swift */,
+				D65DDA699DB2E9BEB3E718F9 /* KeyCourierApp.swift */,
+				E1CFC5EDCCCB1496F637022C /* QuickCredentialEntryView.swift */,
+				8CEAA14714597C190CA597A5 /* RequestedSecretEntryView.swift */,
+				8533540A6C9AA498CAFF6066 /* RequestNotificationService.swift */,
+				28C77E4A4BE1826676B5769A /* RequestsView.swift */,
+				DE1F06880F408914FEBF17D6 /* SettingsView.swift */,
+			);
+			name = KeyCourierApp;
+			path = Sources/KeyCourierApp;
+			sourceTree = "<group>";
+		};
+		2A37AEDC0D1E5D8017A1956F /* KeyCourierCLI */ = {
+			isa = PBXGroup;
+			children = (
+				C447799D6FFFE182FF47436E /* main.swift */,
+			);
+			name = KeyCourierCLI;
+			path = Sources/KeyCourierCLI;
+			sourceTree = "<group>";
+		};
+		2CAACD3F4E4038641F1B7719 = {
+			isa = PBXGroup;
+			children = (
+				7B10FF22404023A9787ED29F /* keycourier */,
+				2501AC1CA580FFE5603E55EF /* KeyCourierApp */,
+				7F13B235E47057F1AED12C28 /* KeyCourierBridge */,
+				2A37AEDC0D1E5D8017A1956F /* KeyCourierCLI */,
+				EFC93A10D63C8BF1E540F177 /* KeyCourierCompanionShared */,
+				0E53A2E47EB18F6B64C2411A /* KeyCourierCore */,
+				98EA7EB9831FD6EE92A14CEA /* KeyCourierCoreTests */,
+				08D890E36DFDA6FBEE022AB3 /* KeyCourierMobile */,
+				A14280E6945BB323C6F42AF9 /* KeyCourierStoreApp */,
+				1C7E112D1CD7EF35E3DBE90A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F13B235E47057F1AED12C28 /* KeyCourierBridge */ = {
+			isa = PBXGroup;
+			children = (
+				3A771739D6E417CED7CD0CEE /* main.swift */,
+			);
+			name = KeyCourierBridge;
+			path = Sources/KeyCourierBridge;
+			sourceTree = "<group>";
+		};
+		98EA7EB9831FD6EE92A14CEA /* KeyCourierCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				E137C78AB47FB8C7CC7491CF /* AgentCommandTests.swift */,
+				F2177363CA9B2F014B627ECE /* ApprovalCoordinatorTests.swift */,
+				833CF7E0DE34195FAAFE98DF /* BridgeApprovalDispatcherTests.swift */,
+				BDC23AC7FD07810B50EFE47A /* BridgeDeliveryTests.swift */,
+				34BE6ADE27D5DD4AA4D6AFF1 /* BridgeProtocolTests.swift */,
+				BE03C07D590A24E84EC36120 /* BridgeQueueTests.swift */,
+				1D7930B1F0CC69CE5543180B /* CompanionConfigurationStoreTests.swift */,
+				86CA570CB138A48E66472A6B /* CompanionProtocolTests.swift */,
+				C929ADCC424C66C9C9B73450 /* DotenvInstallerTests.swift */,
+				454A4733493BA6563387A130 /* FileInboxTests.swift */,
+				7F1B5C3425FC06BBBD519752 /* GuidedDestinationTests.swift */,
+				052860847A254D865B46CCC5 /* LifecycleRecoveryTests.swift */,
+				4BEC367AB045D0A2C307F52D /* MetadataStoreTests.swift */,
+				88F53F8619C94DDDEEB38E92 /* RemoteAgeTests.swift */,
+				7FD2FC627D1D17485DBFE0DA /* RequestContractTests.swift */,
+				A8AE01E1B4054C0AE6AB1CAE /* SecureFileSystemTests.swift */,
+				CCDD805DC0F9E18293B79589 /* TelegramApprovalTests.swift */,
+			);
+			name = KeyCourierCoreTests;
+			path = Tests/KeyCourierCoreTests;
+			sourceTree = "<group>";
+		};
+		A14280E6945BB323C6F42AF9 /* KeyCourierStoreApp */ = {
+			isa = PBXGroup;
+			children = (
+				9011B86A4986B7F294FD0776 /* KeyCourierStoreApp.swift */,
+				03E428D3B63F9193FF543795 /* PrivacyInfo.xcprivacy */,
+			);
+			name = KeyCourierStoreApp;
+			path = Sources/KeyCourierStoreApp;
+			sourceTree = "<group>";
+		};
+		EFC93A10D63C8BF1E540F177 /* KeyCourierCompanionShared */ = {
+			isa = PBXGroup;
+			children = (
+				610EAD7BE74CD5EECF4285AB /* CompanionCloudStore.swift */,
+				82465A5BD833A58EC3E1031B /* CompanionDeviceKeyStore.swift */,
+				7B44836DD0C5C5A08523A5B1 /* CompanionProtocol.swift */,
+			);
+			name = KeyCourierCompanionShared;
+			path = Sources/KeyCourierCompanionShared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C3AA434B7A8077F9C33529F /* KeyCourierCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB708217DF4A868247FCE3FE /* Build configuration list for PBXNativeTarget "KeyCourierCLI" */;
+			buildPhases = (
+				4314EA3D518A29C7A64ACFF4 /* Sources */,
+				76BFB664F6A14796BC2BF3BE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99EEB05D302F329847BE3E40 /* PBXTargetDependency */,
+			);
+			name = KeyCourierCLI;
+			packageProductDependencies = (
+			);
+			productName = KeyCourierCLI;
+			productReference = C328C604F450F4E85C83A7CF /* KeyCourierCLI */;
+			productType = "com.apple.product-type.tool";
+		};
+		4E747A973E3F4CBAA1498CBA /* KeyCourierCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56A3A59F3FCC4775021B57A /* Build configuration list for PBXNativeTarget "KeyCourierCoreTests" */;
+			buildPhases = (
+				203B5AEF998719EC72311A65 /* Sources */,
+				32F69BD41D652CD042E13697 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3736D706C0D86AD6E4AA4901 /* PBXTargetDependency */,
+			);
+			name = KeyCourierCoreTests;
+			packageProductDependencies = (
+			);
+			productName = KeyCourierCoreTests;
+			productReference = 5D23479F244868E2FA7E13DD /* KeyCourierCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D7E2114EEE3B51A7777BDA4 /* KeyCourierCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1360F07C0FBC9D32F25E7316 /* Build configuration list for PBXNativeTarget "KeyCourierCore" */;
+			buildPhases = (
+				91287C887F79ACDCD22652D7 /* Sources */,
+				31D5D1011026D75073F733A7 /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyCourierCore;
+			packageProductDependencies = (
+			);
+			productName = KeyCourierCore;
+			productReference = 1689552CCDB985FD3594A29B /* libKeyCourierCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		95F4872929D818F12B1DFFBB /* KeyCourier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65213329A484A6A33AB7F7A /* Build configuration list for PBXNativeTarget "KeyCourier" */;
+			buildPhases = (
+				845805F69B6FDC29768F72D8 /* Sources */,
+				E6599C82F150ACC587374123 /* Resources */,
+				C75DD2F6C4C41D21AD2A233B /* CopyFiles */,
+				8EB735F3203BA6F4A3F51DE8 /* Frameworks */,
+				F53EB1AD81D04A5A9FEB6F2D /* Embed Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B71F504CB1EBDC21CC9A14A /* PBXTargetDependency */,
+				0668B8A4483A5D5F8219F8BD /* PBXTargetDependency */,
+			);
+			name = KeyCourier;
+			packageProductDependencies = (
+			);
+			productName = KeyCourier;
+			productReference = B56D97EC8E8326CC7CAB03E7 /* KeyCourier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96275314E83370867A40F041 /* KeyCourierBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D47401C0EF9D2F98DC50BB2 /* Build configuration list for PBXNativeTarget "KeyCourierBridge" */;
+			buildPhases = (
+				50432AF9A7D0038335DE6E61 /* Sources */,
+				2A0FF46245586F72FA3022F3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A104E96E875E00237CDD6F4 /* PBXTargetDependency */,
+			);
+			name = KeyCourierBridge;
+			packageProductDependencies = (
+			);
+			productName = KeyCourierBridge;
+			productReference = 59B1521004932856DAE056D8 /* KeyCourierBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8F655C791DF2F52E3B5D3B7 /* KeyCourierStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2ABE7E7CF0799B3D13449FE /* Build configuration list for PBXNativeTarget "KeyCourierStore" */;
+			buildPhases = (
+				DA36D0493C2643BF2BB814C7 /* Sources */,
+				9ECE68F18197E0C792C6B750 /* Resources */,
+				9E34D84C41C82B35FB36F6B5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED10BB3764043E8BFC43FA62 /* PBXTargetDependency */,
+			);
+			name = KeyCourierStore;
+			packageProductDependencies = (
+			);
+			productName = KeyCourierStore;
+			productReference = CCD9294CF693BAEF11EF10FB /* KeyCourierStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7C01D6B19BAAE4A15C3B460 /* KeyCourierMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4C00FE2C69FC19AA3D0516 /* Build configuration list for PBXNativeTarget "KeyCourierMobile" */;
+			buildPhases = (
+				809F32095BBBD6531FF501BF /* Sources */,
+				2F7041E3DDEFBAB370C96648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyCourierMobile;
+			packageProductDependencies = (
+			);
+			productName = KeyCourierMobile;
+			productReference = B8C56B2D56EC36D0476C1D3D /* KeyCourierMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ADAE85B861EE29EFD207D4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					95F4872929D818F12B1DFFBB = {
+						DevelopmentTeam = T27WF6673W;
+						ProvisioningStyle = Automatic;
+					};
+					96275314E83370867A40F041 = {
+						DevelopmentTeam = T27WF6673W;
+						ProvisioningStyle = Automatic;
+					};
+					C8F655C791DF2F52E3B5D3B7 = {
+						DevelopmentTeam = T27WF6673W;
+						ProvisioningStyle = Automatic;
+					};
+					D7C01D6B19BAAE4A15C3B460 = {
+						DevelopmentTeam = T27WF6673W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 050701A88B4239A2D8EBF8EF /* Build configuration list for PBXProject "KeyCourier" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2CAACD3F4E4038641F1B7719;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1C7E112D1CD7EF35E3DBE90A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D7E2114EEE3B51A7777BDA4 /* KeyCourierCore */,
+				95F4872929D818F12B1DFFBB /* KeyCourier */,
+				0C3AA434B7A8077F9C33529F /* KeyCourierCLI */,
+				D7C01D6B19BAAE4A15C3B460 /* KeyCourierMobile */,
+				4E747A973E3F4CBAA1498CBA /* KeyCourierCoreTests */,
+				C8F655C791DF2F52E3B5D3B7 /* KeyCourierStore */,
+				96275314E83370867A40F041 /* KeyCourierBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F7041E3DDEFBAB370C96648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB5F1E29369813FA279DE8B /* Assets.xcassets in Resources */,
+				F5F05C251FB708674FDC29C0 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECE68F18197E0C792C6B750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A9EF30515EF0F158D2ED16 /* Assets.xcassets in Resources */,
+				1669194A4C8BA0020A86B8CD /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6599C82F150ACC587374123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D085A9D7805B4DBA0451818 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31D5D1011026D75073F733A7 /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		203B5AEF998719EC72311A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7206FE079EB48FA1FF57754E /* AgentCommandTests.swift in Sources */,
+				77E3B7D552D965636B98B6AD /* ApprovalCoordinatorTests.swift in Sources */,
+				B3E0A1813D636FD766F65D82 /* BridgeApprovalDispatcherTests.swift in Sources */,
+				B3FD7D8CD6E1AD0E83588AC8 /* BridgeDeliveryTests.swift in Sources */,
+				EE004E9B879CE9CB2B6522ED /* BridgeProtocolTests.swift in Sources */,
+				3FD8D9EC2C5F90A46161867F /* BridgeQueueTests.swift in Sources */,
+				1FBD0DC705450048131DD0B3 /* CompanionConfigurationStoreTests.swift in Sources */,
+				26AA52A997AB18A2B1D4942B /* CompanionProtocolTests.swift in Sources */,
+				9489065963CC789A5A882012 /* DotenvInstallerTests.swift in Sources */,
+				4B058BF8576D2C13375833ED /* FileInboxTests.swift in Sources */,
+				D85D29DA1D01CD2CC5DF824B /* GuidedDestinationTests.swift in Sources */,
+				8FEC076D40AE7891F7092702 /* LifecycleRecoveryTests.swift in Sources */,
+				6C7B96FE4983412556824B29 /* MetadataStoreTests.swift in Sources */,
+				11CF5B0AA3B5C11D79B2EFF1 /* RemoteAgeTests.swift in Sources */,
+				67946837529D5CDC01C4D308 /* RequestContractTests.swift in Sources */,
+				E0D54730745285B061FE5014 /* SecureFileSystemTests.swift in Sources */,
+				6FA9581E0ADADC8AA588BAC2 /* TelegramApprovalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4314EA3D518A29C7A64ACFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6573B91C1CFB0235BF0504A3 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50432AF9A7D0038335DE6E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C3E7DB098B9098CBF64260 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809F32095BBBD6531FF501BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151DF09A8CDC96C199097B70 /* CompanionAppModel.swift in Sources */,
+				13E05C2CDE78C31B888C2013 /* CompanionCloudStore.swift in Sources */,
+				84A7AF4E7256A3E8F01199D7 /* CompanionDeviceKeyStore.swift in Sources */,
+				9F1972545F5038B281D033C3 /* CompanionProtocol.swift in Sources */,
+				867A347FD2FB81CCF070F283 /* CompanionRootView.swift in Sources */,
+				372C38D2C15BA4E1AC31CDDE /* KeyCourierMobileApp.swift in Sources */,
+				A88B427C53E0AF5BD31FCE77 /* MobileCredentialsView.swift in Sources */,
+				3E7F1ED22B60A10A34326D01 /* MobileRequestsView.swift in Sources */,
+				2F6C9F29F61605D261840322 /* MobileSettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845805F69B6FDC29768F72D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E019673654DE3A334C6FD8 /* AdvancedView.swift in Sources */,
+				9B850C9FE4ED3CA6AC3BA963 /* AppModel+FriendlyNames.swift in Sources */,
+				E638001EB607A071358975DD /* AppModel.swift in Sources */,
+				841B67CA11049CAF13A77D4E /* AppNavigation.swift in Sources */,
+				A37FEF83371F1547300BA556 /* ContentView.swift in Sources */,
+				399170B16C3BDB04E9F3A45F /* CredentialsView.swift in Sources */,
+				75FE977FDA227A040B91C69D /* CustomConfigurationViews.swift in Sources */,
+				EB145DC8339253D4D1828919 /* GuidedSecretEntryView.swift in Sources */,
+				11E7E6F89205DC4AA9297EC9 /* HistoryView.swift in Sources */,
+				32ADAF2FE6745D3C79545A94 /* HomeView.swift in Sources */,
+				6CACF8919A2245AFF4EB26BC /* KeyCourierApp.swift in Sources */,
+				73D2F03EDA014AF3B6DAAE47 /* QuickCredentialEntryView.swift in Sources */,
+				80F96771F81CE4236C72F187 /* RequestNotificationService.swift in Sources */,
+				3CA28559DBB870B350BD8ED9 /* RequestedSecretEntryView.swift in Sources */,
+				9334C063D797F45F03D069C5 /* RequestsView.swift in Sources */,
+				D6E7F64D09A27A2CA0306AE0 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91287C887F79ACDCD22652D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724250F0774FE7C2B71E4FCF /* AgentCommand.swift in Sources */,
+				A36B06B1292E1B99CB8473D1 /* BridgeApproval.swift in Sources */,
+				F325AAAAA0C5C10DDC1B954A /* BridgeDelivery.swift in Sources */,
+				4BE9F7364774EAAF10473BF0 /* BridgeProtocol.swift in Sources */,
+				173BA89F12D2D882EBF5DFFD /* BridgeQueue.swift in Sources */,
+				C9D4F1911EF8BD8297BCA3F8 /* BridgeStorage.swift in Sources */,
+				DE4FBFA0B3E70DDC6388A3B9 /* CompanionCloudStore.swift in Sources */,
+				C8C499B8C5521D2EBC6760A8 /* CompanionConfigurationStore.swift in Sources */,
+				BEAACBB9993CB43AAB538A1C /* CompanionDeviceKeyStore.swift in Sources */,
+				2243F3BC5B5B98FA3CBDDAC6 /* CompanionProtocol.swift in Sources */,
+				72F36829180A7211E4160BE9 /* ConsumerProfile.swift in Sources */,
+				36F60FFC1CB9A8B372581224 /* DomainModels.swift in Sources */,
+				90C8CCE3A4FF5FF4969F1B88 /* DotenvInstaller.swift in Sources */,
+				A2FE1365FA12D67B8BDC3E21 /* FileRequestInbox.swift in Sources */,
+				B180C086651EE603192FA2B0 /* GuidedDestination.swift in Sources */,
+				48C1713F4A7EC46CE2982B2F /* KeychainSecretStore.swift in Sources */,
+				8355BFB2F84CE31FA2A6E925 /* LifecycleRecovery.swift in Sources */,
+				5F8CCD3DE603DFC454359FCA /* MetadataStore.swift in Sources */,
+				505C78699C7A1617E9EAD6BD /* RemoteAge.swift in Sources */,
+				5E3A9D1943AA6C80CE9949BB /* RemoteProfileStore.swift in Sources */,
+				38B56F34E42A54724D370A59 /* RoutingSecretInstaller.swift in Sources */,
+				F7C445FFC2387D9139339F96 /* SecretCustody.swift in Sources */,
+				C728E6F17FF1AEAA525552AB /* SecureFileSystem.swift in Sources */,
+				1562810F084D76F281590F72 /* TelegramApprovals.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA36D0493C2643BF2BB814C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1A00648682040EB021E6DE /* KeyCourierStoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0668B8A4483A5D5F8219F8BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C3AA434B7A8077F9C33529F /* KeyCourierCLI */;
+			targetProxy = 519D103E95A4EBDE50F89B5C /* PBXContainerItemProxy */;
+		};
+		0B71F504CB1EBDC21CC9A14A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D7E2114EEE3B51A7777BDA4 /* KeyCourierCore */;
+			targetProxy = D574151B6EFA724EEF30D085 /* PBXContainerItemProxy */;
+		};
+		3736D706C0D86AD6E4AA4901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D7E2114EEE3B51A7777BDA4 /* KeyCourierCore */;
+			targetProxy = 8E66A5EA5603060A08C682AB /* PBXContainerItemProxy */;
+		};
+		4A104E96E875E00237CDD6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D7E2114EEE3B51A7777BDA4 /* KeyCourierCore */;
+			targetProxy = D4DA083D457F81F6765F3169 /* PBXContainerItemProxy */;
+		};
+		99EEB05D302F329847BE3E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D7E2114EEE3B51A7777BDA4 /* KeyCourierCore */;
+			targetProxy = 6C9A8ECB39CC576309678E41 /* PBXContainerItemProxy */;
+		};
+		ED10BB3764043E8BFC43FA62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D7E2114EEE3B51A7777BDA4 /* KeyCourierCore */;
+			targetProxy = 4657B3B32B5595B486B41440 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07579968898EB170FBBFEB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconMobile;
+				CODE_SIGN_ENTITLEMENTS = KeyCourierMobile.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = T27WF6673W;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/KeyCourierMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.KeyCourierMobile;
+				PRODUCT_NAME = KeyCourier;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		25E2E5976E211910414AF948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyCourierBridge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T27WF6673W;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "KeyCourier Bridge";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.KeyCourierBridge;
+				PRODUCT_NAME = "keycourier-bridge";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		294E178C6E99F27D6A07F5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyCourier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = T27WF6673W;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.8.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.KeyCourier;
+				PRODUCT_NAME = KeyCourier;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2EF0771C98CA269AE643CC61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.KeyCourierCoreTests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		33F95E4E129E0AEF4012F1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.KeyCourierCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		41C5C8DBAB95E5DFA14AB8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyCourierRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = T27WF6673W;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.8.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.KeyCourier;
+				PRODUCT_NAME = KeyCourier;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		44C705D0F27CB4ABEC773D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.KeyCourierCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		64FAA6BE996B4D189B581DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyCourierStoreRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = T27WF6673W;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KeyCourier;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.KeyCourier;
+				PRODUCT_NAME = KeyCourier;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		83FE7C0F775D07546C958526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyCourierStore.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = T27WF6673W;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KeyCourier;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.KeyCourier;
+				PRODUCT_NAME = KeyCourier;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8A4BB834ABD3962B476BE6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyCourierBridge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T27WF6673W;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "KeyCourier Bridge";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.KeyCourierBridge;
+				PRODUCT_NAME = "keycourier-bridge";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A105F184AFB7CFA9D46540B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconMobile;
+				CODE_SIGN_ENTITLEMENTS = KeyCourierMobileRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = T27WF6673W;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/KeyCourierMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.KeyCourierMobile;
+				PRODUCT_NAME = KeyCourier;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A7F0CDE528A9042562B9DC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CFA9E6ED7E425BF081EC1DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.keycourier;
+				PRODUCT_NAME = keycourier;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E35F0A515E8F3081429179CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.KeyCourierCoreTests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAD93F597A60D0C892C34099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FE01C411B04318432279C106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsdigest.keycourier;
+				PRODUCT_NAME = keycourier;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		050701A88B4239A2D8EBF8EF /* Build configuration list for PBXProject "KeyCourier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD93F597A60D0C892C34099 /* Debug */,
+				A7F0CDE528A9042562B9DC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1360F07C0FBC9D32F25E7316 /* Build configuration list for PBXNativeTarget "KeyCourierCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F95E4E129E0AEF4012F1F8 /* Debug */,
+				44C705D0F27CB4ABEC773D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D47401C0EF9D2F98DC50BB2 /* Build configuration list for PBXNativeTarget "KeyCourierBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4BB834ABD3962B476BE6EC /* Debug */,
+				25E2E5976E211910414AF948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F4C00FE2C69FC19AA3D0516 /* Build configuration list for PBXNativeTarget "KeyCourierMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07579968898EB170FBBFEB3D /* Debug */,
+				A105F184AFB7CFA9D46540B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B2ABE7E7CF0799B3D13449FE /* Build configuration list for PBXNativeTarget "KeyCourierStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FE7C0F775D07546C958526 /* Debug */,
+				64FAA6BE996B4D189B581DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B56A3A59F3FCC4775021B57A /* Build configuration list for PBXNativeTarget "KeyCourierCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF0771C98CA269AE643CC61 /* Debug */,
+				E35F0A515E8F3081429179CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B65213329A484A6A33AB7F7A /* Build configuration list for PBXNativeTarget "KeyCourier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294E178C6E99F27D6A07F5E8 /* Debug */,
+				41C5C8DBAB95E5DFA14AB8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB708217DF4A868247FCE3FE /* Build configuration list for PBXNativeTarget "KeyCourierCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE01C411B04318432279C106 /* Debug */,
+				CFA9E6ED7E425BF081EC1DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ADAE85B861EE29EFD207D4E /* Project object */;
+}

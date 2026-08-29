@@ -1,0 +1,704 @@
+{
+  "files": [
+    {
+      "mode": "0644",
+      "path": ".github/workflows/verify.yml",
+      "sha256": "84f0eac71e10a81989b5f28ac5a67b3e8bfef6548a1655a3e97c3fd040444e0d"
+    },
+    {
+      "mode": "0644",
+      "path": ".gitignore",
+      "sha256": "3f6aa1c08d2a95280850c2b843cb45c3d42b163c88f74c6378cbb2912944790c"
+    },
+    {
+      "mode": "0644",
+      "path": "CAPABILITIES.md",
+      "sha256": "808aec568803e1fb36aa4dce44e72a2b54bf341d71b0bb327398c83fd14565d5"
+    },
+    {
+      "mode": "0644",
+      "path": "CHANGELOG.md",
+      "sha256": "f8ae6ed08d74922ef2d697be37a3030e11ef3136d8dca5994ead85364cd784a2"
+    },
+    {
+      "mode": "0644",
+      "path": "CONTRIBUTING.md",
+      "sha256": "cf523a226a2aa6efd9309489f85a718984be067d15e6399f0193bbad511ec075"
+    },
+    {
+      "mode": "0644",
+      "path": "Design/KeyCourierIcon.png",
+      "sha256": "1f32769abbf7fcd31cb0e33825d9924a733a7180085f952bd78e951dec623a2d"
+    },
+    {
+      "mode": "0644",
+      "path": "HostAgent/KeychainAdapter.swift",
+      "sha256": "faedd53936a6646f97be486355a7d6e05f9ae9e6b90a529708791ce5f3fbe5b2"
+    },
+    {
+      "mode": "0644",
+      "path": "HostAgent/host_agent.py",
+      "sha256": "47b8ab4c85deabf001e5fcc73dc7f817e21956b8395197213334430307957fbe"
+    },
+    {
+      "mode": "0644",
+      "path": "HostAgent/tests/test_host_agent.py",
+      "sha256": "95dd1e087748cdb01caabe6e40d5ab5be8b71b46458c4ad489ab789e39ef422b"
+    },
+    {
+      "mode": "0644",
+      "path": "Integrations/skills/keycourier/SKILL.md",
+      "sha256": "bf42e745641bbf80662700bbe8498f58a5f36ead95953c9e9a2f6b9e7c8725ba"
+    },
+    {
+      "mode": "0644",
+      "path": "Integrations/skills/keycourier/agents/openai.yaml",
+      "sha256": "21998b37fb3ab319e86200bd7f8847a29068b6f3b6eec17ad86089d78c00a3e4"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourier.entitlements",
+      "sha256": "a036eb0a66b2799c24c09013fcd87eca93471d9187b670bd6c2972c0e5a077a8"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourier.xcodeproj/project.pbxproj",
+      "sha256": "7cb908f56c9dfa0125e2d2a5be81487a2a5a7914484988b511a259b5e3621a6e"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourier.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourier.xcodeproj/xcshareddata/xcschemes/KeyCourier.xcscheme",
+      "sha256": "8e728295006851d1c494360a8a67c66ada806528fcb77f434a4a4b9bcbe44129"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourier.xcodeproj/xcshareddata/xcschemes/KeyCourierBridge.xcscheme",
+      "sha256": "0c134a21af386f736066176728a62241187a5be6a09c825e94bb47fc6fb79c1c"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourier.xcodeproj/xcshareddata/xcschemes/KeyCourierCore.xcscheme",
+      "sha256": "ab50d69783615996e89e9db35936564f4ddc957fe1c14a05acded4d936bbb06a"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourier.xcodeproj/xcshareddata/xcschemes/KeyCourierMobile.xcscheme",
+      "sha256": "976bae7c6bc3b57dcfaaea7b04a9d26d8dc2d2df53110d30ae8fbc63a7298e34"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourier.xcodeproj/xcshareddata/xcschemes/KeyCourierStore.xcscheme",
+      "sha256": "de64cbd35764de72ddbd0d96c2ff792d0d9c8230119ccdb8ec7a9659d04747f1"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourierBridge.entitlements",
+      "sha256": "5c4ceaa99827d6e03355adde5477dd27491cc92385774aa7c204282e86c3ce85"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourierMobile.entitlements",
+      "sha256": "91a5cc4028577da68ea2c1e160aaa3310c877c4453225d0c86a38de6f104b361"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourierMobileRelease.entitlements",
+      "sha256": "27cbda717f552fbc602d4205436111e864f1de6df9c607ca90182380913da344"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourierRelease.entitlements",
+      "sha256": "5675391d44ee1505212c829c9b999b5a19eef0139860fda5cc9a8ca00d1d10b8"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourierStore.entitlements",
+      "sha256": "c5142e386b3eb99a7012211290b932576682a7dab0f24462a42d2eaf216633df"
+    },
+    {
+      "mode": "0644",
+      "path": "KeyCourierStoreRelease.entitlements",
+      "sha256": "84d66475f5041e7db3c4ce746f1238f491bd680849b103db3d06f06ae70d845c"
+    },
+    {
+      "mode": "0644",
+      "path": "LICENSE",
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "mode": "0644",
+      "path": "README.md",
+      "sha256": "0188db777fc084209eaa921262c61d81dcaff5b6b5c23117767b092b626f6066"
+    },
+    {
+      "mode": "0644",
+      "path": "ROADMAP.md",
+      "sha256": "b9811ad6b5dc26ccc4e32dcd40884b4c26fe471a092185f16025aeca89fe9ff2"
+    },
+    {
+      "mode": "0644",
+      "path": "SECURITY.md",
+      "sha256": "0c80d2e912ff512b4e8f5e8f7749d3b44cdf26949327c99b1cb417e6c660f9d5"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/AdvancedView.swift",
+      "sha256": "1839db2dc191a172c7d0a2503308a52655071232d82e28c49945ec52c06e88f1"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/AppModel+FriendlyNames.swift",
+      "sha256": "a5d73bc7fe2ca103ebcb2f7be8e65f934aa72b4aa2443b2c81f399eb525124c3"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/AppModel.swift",
+      "sha256": "4754af00cc000dc8de42dedae389edaf3c25edb618cb266bab7a9366e4bc5be4"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/AppNavigation.swift",
+      "sha256": "fa0454cc3e190bd04d6945dcdeccdeb1948e27ed1d0eddaae412194a6cbb7626"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "09139ad78f3284f09da90e66a9fca699f29a864ad90cde4502cdfb3bbc645c44"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
+      "sha256": "76be21d5357642255a7f2fd25f78729a7652e87a3328aa3b331bc4a40e8f0eb3"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/Assets.xcassets/AppIcon.appiconset/icon-128.png",
+      "sha256": "6cfd5c3082ff126b562c1e6b558e4027cc8a862e126cd0733ff893d5ee72d9c7"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/Assets.xcassets/AppIcon.appiconset/icon-16.png",
+      "sha256": "ffe068db4c6ca5c6494b4eb5f0fc0b614c8f0b5519cc93795fe0d152b153b63c"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/Assets.xcassets/AppIcon.appiconset/icon-256.png",
+      "sha256": "d2a0c35a6ad939404becbdc34b67c9390a66bf2263bfbea9410bfa8fe4aafdf1"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/Assets.xcassets/AppIcon.appiconset/icon-32.png",
+      "sha256": "36cfb79ae4997eee79753803120872e5deacc9db5fd27d8341aba6e51712e7e1"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/Assets.xcassets/AppIcon.appiconset/icon-512.png",
+      "sha256": "f7fec3bd13f15d78bae380f6475e9c55d6593cdb627b6408d9ee630e101a0681"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/Assets.xcassets/AppIcon.appiconset/icon-64.png",
+      "sha256": "9c866bf527392788814dc612cea23a7a72938d98a66f2d075d03f757662d2579"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/Assets.xcassets/AppIconMobile.appiconset/Contents.json",
+      "sha256": "f19caa7b538e1b4b9fd3baf6ffb2d5f0f8d15fb7c0a0fef0666f270159e2dd9c"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/Assets.xcassets/AppIconMobile.appiconset/icon-1024.png",
+      "sha256": "204f58b8a2e85cdbd2bdb3d53f54e909f9f51472e0fd521cfb0c364f38939563"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/Assets.xcassets/Contents.json",
+      "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/ContentView.swift",
+      "sha256": "45ea9dd8867d86ed03a6535713322898eddf15f15280366b5cd43aa0fa7b9d9c"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/CredentialsView.swift",
+      "sha256": "a8dc43ec6c9e49c0b14686684d749d3027d18bff6eb157a6049dc07ff8eaacf7"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/CustomConfigurationViews.swift",
+      "sha256": "372f781003382db17dd45533546624ad04dc15a48c4553d787f851c9ebf7c049"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/GuidedSecretEntryView.swift",
+      "sha256": "c32f01014beee228eebf2d104756bba518d6173ffd88253763834f0443584918"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/HistoryView.swift",
+      "sha256": "2e8d163e4eebc2972de090ece47ae45100af8b9b3cc54f346fc6347b0e0b5542"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/HomeView.swift",
+      "sha256": "126d2a9b099f819aa34b0c4445c3e3eadabbab252e41a75686f5a9f05b0e6bbb"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/KeyCourierApp.swift",
+      "sha256": "44dfc5f3bfb723b9cb3157bf4cdfcf06253a310c6f3c324a5a5e54c315398d80"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/QuickCredentialEntryView.swift",
+      "sha256": "bffbbba1cec3a87d00685ed708f89549601c624401bce9dd10500b04a29e87cb"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/RequestNotificationService.swift",
+      "sha256": "fcb04d65aa6e51fdbb6766f318521d864585eab63d895817ce17d7c1462f2fcd"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/RequestedSecretEntryView.swift",
+      "sha256": "8b8160f302589e84635cb4e6182a41b6caa8f0b5dc180772722f6dfae7da1fe2"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/RequestsView.swift",
+      "sha256": "09cfb26503256b5317822b142750e719a37e6c40b2f8ef887bc6738cb43d0969"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierApp/SettingsView.swift",
+      "sha256": "f39bc867644432b22e9642fd1b2313372d9cf2555fe4f3d2ae00105638cf03f2"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierBridge/main.swift",
+      "sha256": "2a0c9a75dc6c62f46cc701a16c768a977d2ad0be7cefb131977bd9ead274aa7f"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCLI/main.swift",
+      "sha256": "72a0fb42afc05c6670d00e6f4c17dd30110f49f9f166084e0964052b7dd25ff0"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCompanionShared/CompanionCloudStore.swift",
+      "sha256": "1b29d272101af3217d334b1e9bc64d506e3f27a778a336c88b4b7cf7f404cf5f"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCompanionShared/CompanionDeviceKeyStore.swift",
+      "sha256": "c4c418e17b00291d10abdc150c175af41928d05cca1d762a0e9757038c6917cd"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCompanionShared/CompanionProtocol.swift",
+      "sha256": "fe8291579bf68bc6d5f30d808eaf6fee7726d6dfafb8ca769e6150618052a4c8"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/AgentCommand.swift",
+      "sha256": "28f4fb412dce64675ef1f8a5b8a6c6fb815418528c0fee45b6bac52d2592f7d9"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/BridgeApproval.swift",
+      "sha256": "14e1164563eab3a408e80efb7cdf2073d642dcd8936d761e4e748018f71ad539"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/BridgeDelivery.swift",
+      "sha256": "f5f3efc5c71934f94a059ffdbac05070defc8332d5021460f28c9ab299da439c"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/BridgeProtocol.swift",
+      "sha256": "1de824856aebffb30f149e8103599b4d7a6cc0138ae9a71e901d7af49a47508c"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/BridgeQueue.swift",
+      "sha256": "57866aaf22b90f388d5430b783a51b37137afdb34956435c6d5f2920c1a86c31"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/BridgeStorage.swift",
+      "sha256": "36ec8f1327c74dc952ced5d711a9caa95c5299a48706a2e71d671f2d69d29549"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/CompanionConfigurationStore.swift",
+      "sha256": "1228dd63f7c88b38635fa5f0dc052758aebc05739d5fe48aaebed676cf710e90"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/ConsumerProfile.swift",
+      "sha256": "735c29e63ed8c4c7eb59a210c47269428f32c5fc6459b6443a709a91ded1295a"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/DomainModels.swift",
+      "sha256": "367cc088969b8ed78c3e59390acc65b93319d81eda4efb8a0d085cf5dd291ab2"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/DotenvInstaller.swift",
+      "sha256": "6233e3834928c04ac99b2e21712a6b1072c914b4392b0fd5c942573a413cac01"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/FileRequestInbox.swift",
+      "sha256": "7bd8fd337706f44fd624e124b8be3b1b981ea5edb4b2dfc92665e823f5a64342"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/GuidedDestination.swift",
+      "sha256": "9e2ea5eca1e0c64044786663828d22952b7b3572acc9cdd77baea18b3c69ffbc"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/KeychainSecretStore.swift",
+      "sha256": "a0a4ab3559c373c3f6e413bc23c1455976800342f96d6904d09f59213055d951"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/LifecycleRecovery.swift",
+      "sha256": "dbb062f22a1792c26ffaede8df7d6ec97060e032c2f69f0b0533966de3360f2d"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/MetadataStore.swift",
+      "sha256": "66f929bfe48d1b305bbc9a67ee192ddbf404314919cdf1afff7ece57e5095458"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/RemoteAge.swift",
+      "sha256": "3d55f8a4ba7974145ae06e739afd836b83f48ff2b8bbdc3a58766392d917b2ae"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/RemoteProfileStore.swift",
+      "sha256": "752003c4ddb7fb0591be935c3bb5b82fb5d8b1020ba6d6a8cdd10933c7f7656b"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/RoutingSecretInstaller.swift",
+      "sha256": "7be931a0247e5d2bebf5e54f9e469501bef197d328edaf79edcee6a4bc50cfc5"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/SecretCustody.swift",
+      "sha256": "3d57198aea981c2faad2f31b3631b4a5b7a90fe5661ae1fefc2576c12379ac45"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/SecureFileSystem.swift",
+      "sha256": "f7dfb8032bf45d64e331df918a1b6b56d815d52e4e315f4e4394dd164463a1cb"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierCore/TelegramApprovals.swift",
+      "sha256": "26540abafb5a917a9b8460b37f1d6d3774023550e8e72c440104078e1ac24d8d"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierMobile/CompanionAppModel.swift",
+      "sha256": "c33a88ad50631bc93e64be0ac90340110b436ff4fc847dd84d9719e14ec588b0"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierMobile/CompanionRootView.swift",
+      "sha256": "5b589af6518b2d4d62db2503bff32d7a4f772c6e4ed025b7fc4dc7613e2032bb"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierMobile/Info.plist",
+      "sha256": "4fa7f45dff1cd6862fbe7338f2c2ea94af0002664103e907b2c100464bf90683"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierMobile/KeyCourierMobileApp.swift",
+      "sha256": "6d62f8c5ac571fcf85442faf19ca27c281b3efe1100f561b00f3486daa2a51cd"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierMobile/MobileCredentialsView.swift",
+      "sha256": "ba413d976590327a189751286b6fa05ae90928c47e218a132b2df87ba4077d20"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierMobile/MobileRequestsView.swift",
+      "sha256": "7035c88b310e94496ca26dcfc94ccbca11868f239052bee569eaeb34580d311e"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierMobile/MobileSettingsView.swift",
+      "sha256": "5deac918ba1b437f145aa7164c4a82cd5b56dbe827b23ce34dc1956002d0e773"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierMobile/PrivacyInfo.xcprivacy",
+      "sha256": "e3d46f07dbef5c1bccdda04c546821ec0d3daf25eeb31ac0f2d6db08cda6479a"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierStoreApp/KeyCourierStoreApp.swift",
+      "sha256": "30ac41f8e17e97f9b06d93272d14e869f7c5b7763648dfe79f182aafc7e8eee9"
+    },
+    {
+      "mode": "0644",
+      "path": "Sources/KeyCourierStoreApp/PrivacyInfo.xcprivacy",
+      "sha256": "340b6032a03730315534c73ed1fd52b64c5f6fffa9433a3e0b1d5e174d6be0e8"
+    },
+    {
+      "mode": "0644",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "291eefadccf95a7354c56efa6658641fb11f75d3c4ce0213d2f670caaa82ad9d"
+    },
+    {
+      "mode": "0644",
+      "path": "TRADEMARKS.md",
+      "sha256": "eea1f83c009d1548e3ea5c43508c42c6fff38f41f28a8d226d3ce2d9167c744f"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/AgentCommandTests.swift",
+      "sha256": "bd880d9c93546b9bb3b9f5ad828d830fdf45c6691f4e4ae596accc0c75c11703"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/ApprovalCoordinatorTests.swift",
+      "sha256": "2425d48aa30c55eb65af02d8bff1b0bcacf7d2273b8a145782f8ee75fbc7e487"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/BridgeApprovalDispatcherTests.swift",
+      "sha256": "63776c3538b77f061285bc8a96b5a17c00ebfe3dbaaf794ea60aaa9c41d4c6e8"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/BridgeDeliveryTests.swift",
+      "sha256": "4663a266ffc60cd5bc45849b3d7b2ffaa36e138625ea7b945f703099d70c10a3"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/BridgeProtocolTests.swift",
+      "sha256": "5433332465a499a46238a2a97f2ec2fe3dd986312096ee68db842c14ae2441bd"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/BridgeQueueTests.swift",
+      "sha256": "42f3f6a658838be31ee9287c8e3f7229ebed93e9e0c65586b8e4ec18c69a00c9"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/CompanionConfigurationStoreTests.swift",
+      "sha256": "dcbf99c5f93def1c6efed955e57af2160c48658d21d219b9e90b518a0d6667cd"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/CompanionProtocolTests.swift",
+      "sha256": "965b3fd4e5a31d7aa457758858e6591ed253990905e16ba88f798711fb250c27"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/DotenvInstallerTests.swift",
+      "sha256": "73dde267caddddcd6383c820af5e64baf4b448aad86e4e27aa467b80f3596a0e"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/FileInboxTests.swift",
+      "sha256": "4443ad79cd1abbfa8b542f46f5e3a8157f8e7dea246cbe63dc842165b3aad1b6"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/GuidedDestinationTests.swift",
+      "sha256": "aeca6ef8a94737bf1242d9329bede3d5d7e544c56ba31ffaa3beb8c1c6de57a5"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/LifecycleRecoveryTests.swift",
+      "sha256": "b26f86078e9a6195ce08f33ddb609320cac80f6bdd42b9a682701d9ca2f39396"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/MetadataStoreTests.swift",
+      "sha256": "0a12d9134343e7b54c09bf928efd1c3597e9838655a7b4b22c84be72b2c91a96"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/RemoteAgeTests.swift",
+      "sha256": "3f8711aac3a749c74d32d69ef5aa18c2cd052584d8a1444336a23a393f93c85d"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/RequestContractTests.swift",
+      "sha256": "3b98b6adc0026db3f59dd117c50067e0dd3f37bcd87ad15f7478299e7d3159e9"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/SecureFileSystemTests.swift",
+      "sha256": "806fcbc62d914d0fd9664f1ad7c67c7db834b0555a0c34c07d4d1c77530dfe1c"
+    },
+    {
+      "mode": "0644",
+      "path": "Tests/KeyCourierCoreTests/TelegramApprovalTests.swift",
+      "sha256": "d6d017800a0446f232536ff5a494fc169918b4248fbca17dc7ce243f353e3fd3"
+    },
+    {
+      "mode": "0644",
+      "path": "config/release/ExportOptions-AppStore.plist",
+      "sha256": "ec307b28949a285017e185227812639b722878217d7eb16e2aec662407b56b90"
+    },
+    {
+      "mode": "0644",
+      "path": "config/release/ExportOptions-DeveloperID.plist",
+      "sha256": "8cafadf1049efe57286b31e28f563edc950f829995b3c5ce48f46b09f846875b"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/ACCESSIBILITY-AUDIT.md",
+      "sha256": "1aa321e96a70a5b8cc8a7509fa4bbfba5ef2457729285689585e6ad206cc80b9"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "27fe352aba6c56f026b84cbf8d012505c24f96926a3b15b3437a2ce71165aa5e"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/CAPABILITY-MAP-1.1-1.6.md",
+      "sha256": "84afaef03c253ecffd79521d0e1bf181a0ef5d438242d8da70f2d060c12f4c5d"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/LAUNCH.md",
+      "sha256": "164c0e8852d2a6d3fe156145b50c125b6dc884defcb26310b768b28fa380d48c"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/LICENSING.md",
+      "sha256": "a4a5902452e59224b7fab4f61bd6805426310bc5ab6885ec5ee98363ac92397e"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/PUBLIC-RELEASE-AND-OPEN-SOURCE-STRATEGY.md",
+      "sha256": "10557e65c1e669ce6e2a62c3fecff32bc516b1db241081105420123f032f0c26"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/REMOTE-DELIVERY.md",
+      "sha256": "3e5d9d957ea26adfc2fba252da7a5e895cccaf7910d39854bbecc18f697635f4"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/REPRODUCIBLE-BUILDS.md",
+      "sha256": "0a8a889521247d334d05a875c51775f87d324e4c4fc72131f0a72a35660b87f3"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/SPEC-1.1-1.6.md",
+      "sha256": "caf92cd9b90292d8c6898f6b430b419eac04058130588e7e7ed089c3dd0ce2cf"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/SPEC-delivery.md",
+      "sha256": "d7e9636447ea7087a0e46e0e52269c8d62c1c7811d4212ee7c0acca46d927070"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/SPEC-guided-destinations.md",
+      "sha256": "6a3ade935cf0e0140c3a5472fd9bffbd1c7af4b739dca61bf2db32b99e742427"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/SPEC-ios-companion.md",
+      "sha256": "0b39bbe70663205e62f0550f0e2b48c639f3db5871e123de127f7a2b838f00f9"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/SPEC-mac-app-store-bridge.md",
+      "sha256": "bdb8a3c429a15fb550ae661df231a9a05c29bfa507eee1342bea1621328a5e29"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/SPEC-macos-app.md",
+      "sha256": "46b0ae6c3a894c390e5b3147e5fa6ddd15504a81dd2a8233e2a5cb53c48e9e4b"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/SPEC-personal-vault-and-telegram.md",
+      "sha256": "ca411fd72255b2fe6616830378523df103f65b5644adddd68bec55d879f5a8ec"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/SPEC-production-readiness.md",
+      "sha256": "4c90882f26ea8989a02709af6526765a574a3bb087a10302e16900f964ee792a"
+    },
+    {
+      "mode": "0644",
+      "path": "docs/SPEC-request-contract.md",
+      "sha256": "32fd6a61883eb36f2e98699577f1084b42cca04ec68c5cf40fd8bc0e6ef3bd02"
+    },
+    {
+      "mode": "0644",
+      "path": "project.yml",
+      "sha256": "ee0aa165bc8ad458bdc4cb48abdfba3e3e41a92370898c66969cbbb5fbb45d57"
+    },
+    {
+      "mode": "0755",
+      "path": "scripts/archive-ios-app-store.sh",
+      "sha256": "6cd664740f2043747c6ac77a1b6c755d81ed07b9426c38a87b240743f223243d"
+    },
+    {
+      "mode": "0755",
+      "path": "scripts/archive-keycourier-bridge.sh",
+      "sha256": "882921e00a7a7efc8475208ea37936e772472bb879ca13aef0331137a708ee92"
+    },
+    {
+      "mode": "0755",
+      "path": "scripts/archive-mac-app-store.sh",
+      "sha256": "9f8a9873588f5f7f6c884b481bf09cd6e01777d1dacef06f34b672570b8a7bd5"
+    },
+    {
+      "mode": "0755",
+      "path": "scripts/archive-mac-developer-id.sh",
+      "sha256": "d8d5a49490293a6653ea8626decd47439ff5913b8bb5fbb7d01aa5f4cc9295f4"
+    },
+    {
+      "mode": "0755",
+      "path": "scripts/export-open-core.sh",
+      "sha256": "5e96d11e1c93e3fd616dde83dffe2acffad125ffe692cc78a4b6c9af33241700"
+    },
+    {
+      "mode": "0755",
+      "path": "scripts/install-local.sh",
+      "sha256": "14dc134f497c9561e9b6cd87136e93b6d0ae9000d3199a50ce42af9e17b7eda3"
+    },
+    {
+      "mode": "0644",
+      "path": "scripts/release-provenance.sh",
+      "sha256": "6cc861d105856acb380e68ad8c682708fe93db85177427e546d59afd258c45b8"
+    },
+    {
+      "mode": "0755",
+      "path": "scripts/verify-release.sh",
+      "sha256": "fc320bebfbec889213f336a83efbbb2f09c923fd4b3c415299daf424bbc4dc8e"
+    }
+  ],
+  "schemaVersion": 1,
+  "source": {
+    "commit": "f8df8ae72438947d2e7c95f7073e2ca42de2d0aa",
+    "tree": "eaf74310fcad50aea2df4700835226b5ae57e761"
+  }
+}

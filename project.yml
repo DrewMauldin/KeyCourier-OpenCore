@@ -1,0 +1,190 @@
+name: KeyCourier
+options:
+  bundleIdPrefix: com.drewsdigest
+  deploymentTarget:
+    macOS: "14.0"
+    iOS: "17.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    CLANG_ENABLE_MODULES: YES
+targets:
+  KeyCourierCore:
+    type: library.static
+    platform: macOS
+    sources:
+      - Sources/KeyCourierCore
+      - Sources/KeyCourierCompanionShared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.drewsdigest.KeyCourierCore
+  KeyCourier:
+    type: application
+    platform: macOS
+    sources:
+      - Sources/KeyCourierApp
+      - path: Integrations/skills/keycourier
+        type: folder
+        buildPhase:
+          copyFiles:
+            destination: resources
+            subpath: Automation/skill
+    dependencies:
+      - target: KeyCourierCore
+      - target: KeyCourierCLI
+        embed: true
+        link: false
+        codeSign: true
+        copy:
+          destination: resources
+          subpath: Automation
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.drewsdigest.KeyCourier
+        PRODUCT_NAME: KeyCourier
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        INFOPLIST_KEY_LSMinimumSystemVersion: "14.0"
+        ENABLE_APP_SANDBOX: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        MARKETING_VERSION: 1.8.0
+        CURRENT_PROJECT_VERSION: 4
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: T27WF6673W
+        ENABLE_HARDENED_RUNTIME: YES
+      configs:
+        Debug:
+          CODE_SIGN_ENTITLEMENTS: KeyCourier.entitlements
+        Release:
+          CODE_SIGN_ENTITLEMENTS: KeyCourierRelease.entitlements
+  KeyCourierCLI:
+    type: tool
+    platform: macOS
+    sources:
+      - Sources/KeyCourierCLI
+    dependencies:
+      - target: KeyCourierCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.drewsdigest.keycourier
+        PRODUCT_NAME: keycourier
+        ENABLE_HARDENED_RUNTIME: YES
+        SKIP_INSTALL: YES
+  KeyCourierMobile:
+    type: application
+    platform: iOS
+    sources:
+      - Sources/KeyCourierMobile
+      - Sources/KeyCourierCompanionShared
+      - path: Sources/KeyCourierApp/Assets.xcassets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.drewsdigest.KeyCourierMobile
+        PRODUCT_NAME: KeyCourier
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: Sources/KeyCourierMobile/Info.plist
+        TARGETED_DEVICE_FAMILY: "1"
+        SUPPORTS_MACCATALYST: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIconMobile
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 4
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: T27WF6673W
+      configs:
+        Debug:
+          CODE_SIGN_ENTITLEMENTS: KeyCourierMobile.entitlements
+        Release:
+          CODE_SIGN_ENTITLEMENTS: KeyCourierMobileRelease.entitlements
+  KeyCourierCoreTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - Tests/KeyCourierCoreTests
+    dependencies:
+      - target: KeyCourierCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.drewsdigest.KeyCourierCoreTests
+        GENERATE_INFOPLIST_FILE: YES
+  KeyCourierStore:
+    type: application
+    platform: macOS
+    sources:
+      - Sources/KeyCourierStoreApp
+      - path: Sources/KeyCourierApp/Assets.xcassets
+    dependencies:
+      - target: KeyCourierCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.drewsdigest.KeyCourier
+        PRODUCT_NAME: KeyCourier
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: KeyCourier
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        INFOPLIST_KEY_LSMinimumSystemVersion: "14.0"
+        ENABLE_APP_SANDBOX: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 3
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: T27WF6673W
+      configs:
+        Debug:
+          CODE_SIGN_ENTITLEMENTS: KeyCourierStore.entitlements
+        Release:
+          CODE_SIGN_ENTITLEMENTS: KeyCourierStoreRelease.entitlements
+  KeyCourierBridge:
+    type: application
+    platform: macOS
+    sources:
+      - Sources/KeyCourierBridge
+    dependencies:
+      - target: KeyCourierCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.drewsdigest.KeyCourierBridge
+        PRODUCT_NAME: keycourier-bridge
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: KeyCourier Bridge
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        INFOPLIST_KEY_LSMinimumSystemVersion: "14.0"
+        INFOPLIST_KEY_LSUIElement: YES
+        ENABLE_APP_SANDBOX: NO
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: T27WF6673W
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_ENTITLEMENTS: KeyCourierBridge.entitlements
+schemes:
+  KeyCourierCore:
+    build:
+      targets:
+        KeyCourierCore: all
+        KeyCourierCoreTests: [test]
+    test:
+      targets:
+        - KeyCourierCoreTests
+  KeyCourier:
+    build:
+      targets:
+        KeyCourier: all
+        KeyCourierCLI: all
+        KeyCourierCoreTests: [test]
+    test:
+      targets:
+        - KeyCourierCoreTests
+  KeyCourierMobile:
+    build:
+      targets:
+        KeyCourierMobile: all
+  KeyCourierStore:
+    build:
+      targets:
+        KeyCourierStore: all
+  KeyCourierBridge:
+    build:
+      targets:
+        KeyCourierBridge: all
