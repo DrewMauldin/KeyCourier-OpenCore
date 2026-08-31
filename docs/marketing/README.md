@@ -93,6 +93,8 @@ No standalone commercial launch is recommended. A future public option must firs
 
 ## Related files
 
+- [Copy and launch framework](copy-and-launch-framework.md)
+
 - [Research manifest](research-manifest.md)
 - [Prioritised backlog](backlog.md)
 - [Future-AI handoff](future-agent-handoff.md)

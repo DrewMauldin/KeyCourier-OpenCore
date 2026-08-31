@@ -226,3 +226,7 @@ The installer moves the previous app and client-skill installations into `~/Libr
 - [Codex skills](https://developers.openai.com/codex/skills)
 - [Claude Code skills](https://code.claude.com/docs/en/slash-commands)
 - [OpenCode skills](https://opencode.ai/docs/skills)
+
+## Marketing and discoverability
+
+- [Repository marketing package](docs/marketing/README.md)
